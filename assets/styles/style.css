@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+
+.moreinfosoon {
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
