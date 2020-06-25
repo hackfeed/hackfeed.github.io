@@ -1,11 +1,103 @@
-body {
-  background-color: black;
+@font-face {
+  font-family: "Consolas";
+  src: url("/assets/fonts/consolas.ttf");
 }
 
-.moreinfosoon {
-  padding: 1em;
-  text-align: center;
-  font-weight: bold;
-  font-family: sans-serif;
+body {
+  background-color: black;
+  margin: 0em;
+  font-family: "Consolas";
   color: white;
+}
+
+.header_nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  border-bottom: 2px solid white;
+}
+
+.nav_panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+.nav_panel li {
+  padding-right: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.headafter {
+  padding-top: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 16px 0px;
+}
+
+.profile {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: white solid 2px;
+}
+
+.about {
+  padding-left: 2rem;
+}
+
+.contacts {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts img {
+  background-color: white;
+  margin-right: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+.img_hovered {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-out;
+}
+
+.img_unhovered {
+  transform: scale(1);
+  transition: transform 0.3s ease-out;
+}
+
+.link_hovered {
+  color: red;
+  transition: color 0.3s ease-out;
+}
+
+.link_unhovered {
+  color: white;
+  transition: color 0.3s ease-out;
 }
