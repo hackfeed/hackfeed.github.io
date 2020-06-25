@@ -48,7 +48,6 @@ body {
 }
 
 .profile {
-  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,11 +62,10 @@ body {
 }
 
 .about {
-  padding-left: 2rem;
+  margin-left: 2rem;
 }
 
 .contacts {
-  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,11 +73,15 @@ body {
 
 .contacts img {
   background-color: white;
-  margin-right: 30px;
   width: 100px;
   height: 100px;
   border-radius: 50px;
   border: 2px solid white;
+}
+
+.contacts a {
+  margin-right: 30px;
+  border-radius: 50px;
 }
 
 .footer {
