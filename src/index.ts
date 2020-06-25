@@ -11,7 +11,7 @@ for (const btn of contactsBtns) {
   });
 }
 
-const navLinks = document.querySelectorAll("li a");
+const navLinks = document.querySelectorAll("a.link");
 
 for (const link of navLinks) {
   link.addEventListener("mouseover", () => {
